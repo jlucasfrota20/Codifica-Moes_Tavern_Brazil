@@ -14,13 +14,13 @@ h1.header {
     font-weight: lighter;
     color: var(--highlight);
     -webkit-text-stroke: 0.8px rgb(43, 39, 3);
-    font-size: 200%;
+    font-size: 100%;
     user-select: none;
 }
 
 nav {
     display: flex;
-    gap: 20px;
+    gap: 15px;
 }
     nav a {
         color: var(--highlight);
