@@ -1,0 +1,5 @@
+@import url(/frontend/styles/reset.css);
+@import url(/frontend/styles/variables.css);
+@import url(/frontend/styles/layout/header.css);
+@import url(/frontend/styles/layout/main.css);
+@import url(/frontend/styles/layout/footer.css);
