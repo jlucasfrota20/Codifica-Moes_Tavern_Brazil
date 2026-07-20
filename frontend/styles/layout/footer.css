@@ -1,12 +1,28 @@
 footer {
     background-color: var(--third-color);
     padding: 10px;
+    border-top: 1px solid black;
 }
 
 p.footer {
     font-family: 'Times New Roman', Times, serif;
     color: white;
-    font-size: 15px;
+    font-size: 3vw;
 
     text-align: center;
+}
+
+@media (min-width: 768px) {
+    footer {
+        padding: 15px;
+    }
+
+    p.footer {
+        font-size: 2vw;
+    }
+}
+@media (min-width: 1440px) {
+    p.footer {
+        font-size: 1vw;
+    }
 }
