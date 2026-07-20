@@ -1,0 +1,12 @@
+footer {
+    background-color: var(--third-color);
+    padding: 10px;
+}
+
+p.footer {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 15px;
+
+    text-align: center;
+}

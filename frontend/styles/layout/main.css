@@ -21,21 +21,21 @@ h1.main {
     user-select: none;
     -webkit-text-stroke: 0.8px rgb(43, 39, 3);
 }
+    p.main {
+        display: flex;
+        font-family: var(--font-light);
+        font-size: 80%;
+        color: white;
 
-p.main {
-    display: flex;
-    font-family: var(--font-light);
-    font-size: 80%;
-    color: white;
-
-    text-align: justify;
-    margin: 10px 20px 0px 20px;
-}
+        text-align: justify;
+        margin: 10px 20px 0px 20px;
+    }
 
 div.main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
     gap: 15px;
     margin-top: 20px;
 }
@@ -56,23 +56,22 @@ h2.main {
     -webkit-text-stroke: 0.8px rgb(43, 39, 3);
     margin-top: 40px;
 }
-
-div.carrossel {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    padding: 10px;
-    margin-top: 5px;
-}
-    img.client {
-        width: 100%;
-        border: 1px solid var(--highlight);
-        border-radius: 8px;
+    div.client {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        padding: 10px;
+        margin-top: 5px;
     }
-        img.client:hover {
-            transition: 0.3s;
-            transform: scale(1.03);
+        img.client {
+            width: 100%;
+            border: 1px solid var(--highlight);
+            border-radius: 8px;
         }
+            img.client:hover {
+                transition: 0.3s;
+                transform: scale(1.02);
+            }
 
 @media (min-width: 480px) {}
 @media (min-width: 768px) {}
