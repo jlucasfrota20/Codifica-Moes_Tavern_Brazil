@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@0;1&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Slackey&display=swap');
 
 :root {
     --first-color: rgb(31, 72, 31);
@@ -6,5 +6,5 @@
     --third-color: rgb(60, 37, 23);
     --highlight: rgb(214, 194, 13);
     --font-light: "JetBrains Mono", Arial, Helvetica, sans-serif;
-    --font-title: "Alumni Sans Collegiate One", Arial, Helvetica, sans-serif;
+    --font-title: "Slackey", Arial, Helvetica, sans-serif;
 }
