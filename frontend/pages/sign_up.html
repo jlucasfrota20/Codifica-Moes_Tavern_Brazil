@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moe's Tavern Brazil - Sign Up</title>
+    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="/frontend/styles/layout/main-sign_us.css">
+</head>
+<body>
+    <header>
+        <h1 class="header">MOE'S TAVERN BRAZIL</h1>
+        <nav>
+            <a href="/index.html">Início</a>
+            <a href="#">Mural</a>
+            <a href="/frontend/pages/sign_up.html">Inscreva-se</a>
+            <a href="/frontend/pages/about_us.html">Sobre</a>
+        </nav>
+    </header>
+    <main class="sign_up">
+        <img src="/frontend/assets/img/logo.png" alt="Logo do Moe's Tavern" id="logo">
+        <h1 class="main">MOE'S TAVERN BRAZIL</h1>
+        <p class="sign_up">Inscreva-se no nosso serviço pelo Brasil e ganhe 2 cervejas Duff grátis na primeira vez que vier no nosso bar!</p>
+
+        <form class="sign_up">
+            <div class="sign_up">
+                <label for="name">Nome Completo</label>
+                <input type="text" name="name" id="name" placeholder="Digite seu nome" required>
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Digite seu Email" required>
+
+                <label for="tel">Telefone</label>
+                <input type="tel" name="tel" id="tel" oninput="this.value = this.value.replace(/\D/g, '')" placeholder="Digite seu telefone" required>
+
+                <label for="text">CEP</label>
+                <input type="text" inputmode="numeric" oninput="this.value = this.value.replace(/\D/g, '')" maxlength="8" placeholder="Digite seu CEP" required>
+
+                <label for="uf">UF</label>
+                <input type="text" maxlength="2" name="uf" id="uf" placeholder="Digite seu UF de Estado" required>
+                
+                <label for="city">Cidade</label>
+                <input type="text" name="city" id="city" placeholder="Digite sua Cidade" required>
+
+                <label for="msg">Envie sua mensagem para o Moe (opcional):</label>
+                <textarea id="msg" placeholder="Digite sua mensagem..." maxlength="500"></textarea>
+
+                <button type="submit" class="submit">Inscrever-se</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p class="footer">&copy; 2026 Moe's Tavern | Página promocional da Taverna do Moe no Brasil</p>
+    </footer>
+    <script src="/backend/services/viacep.js"></script>
+</body>
+</html>
