@@ -20,7 +20,7 @@ h1.header {
 
 nav {
     display: flex;
-    gap: 2.5vw;
+    gap: 2.8vw;
 }
     nav a {
         color: var(--highlight);
